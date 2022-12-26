@@ -1,0 +1,38 @@
+
+/*Header Bereich*/
+@font-face {
+    font-family: AlegreyaSans-Regular;
+    src: url(AlegreyaSans-Regular.ttf);
+  }
+
+
+* {
+    font-family: RichEatin;
+}
+
+h1 {
+    text-align: center;
+}
+
+#Pb {
+    width: 270px;
+    height: auto;
+}
+
+.TopicImg {
+    width: 200px;
+    height: auto;
+}
+
+body
+{
+    background-image: url("BackroundImg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 10;
+}
+
+a:visited {
+    color: white;
+  }

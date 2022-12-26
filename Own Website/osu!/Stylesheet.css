@@ -1,0 +1,117 @@
+/* Font type */
+@font-face {
+    font-family: AlegreyaSans-Regular;
+    src: url(AlegreyaSans-Regular.ttf);
+  }
+
+* {
+    font-family: RichEatin;
+}
+/* Navbar  */
+#navbar ul {
+  list-style-type: none;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 1;
+  overflow: hidden;
+  font-family: AlegreyaSans-Regular;
+  background-color: rgb(13, 0, 62,0.4);
+  transition: top 0.3s;
+  z-index: 1;
+}
+
+#navbar ul li a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 240px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navbar ul li a:hover {
+  background-color: rgb(13, 0, 62,0.5);
+}
+/* Gif and Pic */
+#osuGIF {
+    height: auto; 
+    width: 100%;
+    vertical-align: top;
+}
+
+#TextBg {
+    position: relative;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: bottom;
+    z-index: -1;
+}
+
+#OsekaiDiv {
+    position: absolute;
+    top: 250px;
+    right: 2%;
+    height: 45%;
+    width: 45%;
+    text-align: center;
+}
+
+#MedalBanner {
+/*    position: absolute;
+    top: 250px;
+    right: 2%;
+    height: 45%;
+    width: 45%;*/
+    width: 95%;
+
+}
+
+#Osu-Collab {
+  position: absolute;
+    top: 395px;
+    left: 2%;
+    height: 360px;
+    width: auto;
+}
+
+body {
+    margin: 0;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /*left text */
+  .left {
+    position: absolute;
+    font-size: 60px;
+    font-family: AlegreyaSans-Regular;
+    top: 320px;
+    left: 300px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  /*right text */
+  .right-text {
+    font-size: 60px;
+    font-family: AlegreyaSans-Regular;
+    top: 319px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+
+  .centered-bottom {
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: AlegreyaSans-Regular;
+  }
