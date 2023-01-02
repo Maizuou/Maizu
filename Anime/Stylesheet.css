@@ -35,18 +35,21 @@
 
 body {
     background-color: rgb(0, 0, 0);
+    margin: 0;
 }
 /* Imges */
 #nezuko-top-img {
     position: relative;
     width: 100%;
     height: auto;
+    vertical-align: top;
 }
 
 #nezuko-bottom-img {
     position: relative;
     width: 100%;
     height: auto;
+    vertical-align: bottom;
 }
 
 #nezuko {
@@ -89,7 +92,7 @@ body {
     position: absolute;
     width: auto;
     height: auto;
-    bottom: -1822px;
+    bottom: -1829px;
     left: 100px;
     transform: scaleX(-1);
 }
@@ -98,7 +101,7 @@ body {
     position: absolute;
     width: auto;
     height: auto;
-    bottom: -1822px;
+    bottom: -1829px;
     right: 100px;
 }
 
