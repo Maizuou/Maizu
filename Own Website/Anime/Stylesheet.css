@@ -1,0 +1,120 @@
+/* Font type */
+@font-face {
+    font-family: AlegreyaSans-Regular;
+    src: url(AlegreyaSans-Regular.ttf);
+  }
+
+* {
+    font-family: RichEatin;
+}
+/* Navbar  */
+#navbar ul {
+  list-style-type: none;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 1;
+  overflow: hidden;
+  font-family: AlegreyaSans-Regular;
+  background-color: rgba(109, 109, 109, 0.4);
+  transition: top 0.3s;
+  z-index: 1;
+}
+
+#navbar ul li a {
+  float: left;
+  color: white;
+  padding: 16px 267px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navbar ul li a:hover {
+  background-color: rgba(252, 0, 0, 0.5);
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+/* Imges */
+#nezuko-top-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#nezuko-bottom-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#nezuko {
+    position: absolute;
+    width: auto;
+    height: auto;
+    bottom: -700px;
+    left: 40px;
+}
+
+#OnePunchMan {
+    position: absolute;
+    width: auto;
+    height: auto;
+    bottom: -1100px;
+    left: 40px;
+}
+
+#OnePunchMan-gif {
+    width: 90%;
+}
+
+#Aniworld-img {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    bottom: -695px;
+    right: 120px;
+}
+
+#MyAnimeList-img {
+    position: absolute;
+    width: 27%;
+    height: auto;
+    bottom: -1080px;
+    right: 50px;
+}
+
+#NezukoRunning-left {
+    position: absolute;
+    width: auto;
+    height: auto;
+    bottom: -1822px;
+    left: 100px;
+    transform: scaleX(-1);
+}
+
+#NezukoRunning-right {
+    position: absolute;
+    width: auto;
+    height: auto;
+    bottom: -1822px;
+    right: 100px;
+}
+
+
+h1 {
+    font-family: AlegreyaSans-Regular;
+    text-align: center;
+    font-size: 35px;
+}
+
+.container {
+    position: relative;
+}
+
+.Waifu {
+    position: relative;
+    bottom: 300px;
+    z-index: 1;
+}
